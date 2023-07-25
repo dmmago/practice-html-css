@@ -14,7 +14,7 @@ header {
 }
 
 .container {
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 }
 
@@ -43,4 +43,23 @@ header {
 
 .nav-list a{
 	color: #FAFAFA;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+
+	.menu-box {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+	}
+	.nav-list {
+    display: none;
+	}
 }
